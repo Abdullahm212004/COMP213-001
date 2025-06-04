@@ -29,6 +29,19 @@ h2,h3{
 ul{
     list-style-image:url(images/marker.gif) ;
 }
+table, td,th{
+    border: 2px solid #3399CC;
+    border-color: collapse;
+}
+table tr:nth-of-type(odd){
+    background-color: #c4eeff;
+}
+td,th{
+    padding: 0.5em;
+}
+td{
+    text-align: center;
+}
 
 footer{
     font-size: 75%;
